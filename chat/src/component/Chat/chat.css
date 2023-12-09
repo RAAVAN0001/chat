@@ -1,0 +1,83 @@
+.chatPage {
+    background-color: #242424;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.chatContainer {
+    background-color: #fff;
+    height: 60%;
+    border-radius: 5px;
+    width: 60%;
+    outline: 2px solid white;
+}
+
+.header {
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15%;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom: .2vmax solid rgba(249, 249, 249, 0.514);
+
+    >h2 {
+        font-size: 2vmax;
+        margin: 2.5vmax;
+        color: rgb(255, 255, 255);
+    }
+
+    >a>img {
+        margin: 2.5vmax;
+        transition: all .5s ease;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.4);
+        }
+    }
+}
+
+.chatBox {
+    height: 70%;
+    box-sizing: border-box;
+}
+
+.inputBox {
+    box-sizing: border-box;
+    height: 15%;
+    display: flex;
+}
+
+#chatInput {
+    width: 80%;
+    border: none;
+    background-color: #fff;
+    padding: 2vmax;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-top: .2vmax solid rgba(64, 64, 64, 0.514);
+    font-size: 1.2vmax;
+    border-bottom-left-radius: 5px;
+}
+
+.sendbtn {
+    background-color: crimson;
+    color: white;
+    width: 20%;
+    border: none;
+    transition: all .3s ease;
+    border-bottom-right-radius: 5px;
+    font-size: 1.2vmax;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgb(145, 13, 39);
+    }
+}

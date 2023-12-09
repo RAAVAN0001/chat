@@ -1,0 +1,60 @@
+.joinPage {
+    background-color: #242424;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.joinContainer {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.joinContainer>.imgBox>img {
+    width: 10vmax;
+    filter: drop-shadow(0 0 50px rgba(190, 76, 248, 0.7));
+    padding-right: 10px;
+}
+
+.joinContainer>h1 {
+    color: white;
+    font-size: 2.5vmax;
+    text-transform: uppercase;
+    width: 25vmax;
+    text-align: center;
+    border-bottom: .2vmax solid white;
+    font-family: 'roboto';
+    margin-bottom: 2vmax;
+}
+
+#joinInput {
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    box-sizing: border-box;
+}
+
+.joinbtn {
+    width: 25vmax;
+    padding: 1.5vmax;
+    border: none;
+    outline: none;
+    font-size: 1.2vmax;
+    margin: 2vmax;
+    background-color: crimson;
+    box-sizing: border-box;
+    cursor: pointer;
+    color: white;
+    font-family: 'roboto';
+    transition: all .3s ease;
+
+    &:hover {
+        background-color: rgb(169, 17, 47);
+    }
+}
